@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+body{
+    background-color:whitesmoke;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+nav{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 58px;
+    background-color: black;
+    color: white;
+}
+.logo img{
+    width: 77px;
+    padding: 0 9px;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+nav ul li{
+    padding: 0 14px;
+}
